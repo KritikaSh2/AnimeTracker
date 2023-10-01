@@ -1,1 +1,1 @@
-# Anime Tracker App
+
