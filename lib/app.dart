@@ -1,5 +1,6 @@
 import 'package:anime_track/screens/home/home_screen.dart';
 import 'package:anime_track/screens/landing.dart';
+import 'package:anime_track/screens/network_check.dart';
 import 'package:anime_track/screens/sign_in/signin_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -29,7 +30,7 @@ class App extends StatelessWidget {
               if (appState is AppStateLoggedOut) {
                 return const SignInScreen();
               } else if (appState is AppStateLoggedIn) {
-                return SignInScreen();
+                return NetworkCheckerBody();
               } else {
                 // this should never happen
                 return Container();
