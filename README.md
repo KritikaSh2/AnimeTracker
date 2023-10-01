@@ -58,4 +58,5 @@ This project is licensed under the [MIT License](LICENSE).
 **AnimeTracker** is a passion project created by anime fans, for anime fans. We hope you enjoy using the app and discovering new anime titles to watch. If you encounter any issues or have suggestions for improvement, please feel free to create an issue or reach out to us.
 
 Happy anime watching! 📺✨
+=======
 
